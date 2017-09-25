@@ -39,4 +39,5 @@ def sum_array(array)
   array.each do |num|
     sum << array[0] + num unless array[0] == num
   end
+  sum
 end
