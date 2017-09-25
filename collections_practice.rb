@@ -18,5 +18,6 @@ def swap_elements(array)
     b <=> a
   end
   2.times{array.pop}
-  array << sorted
+  sorted_array = array << sorted
+  sorted_array.flatten
 end
