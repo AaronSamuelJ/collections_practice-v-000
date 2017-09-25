@@ -21,3 +21,6 @@ def swap_elements(array)
   sorted_array = array << sorted
   sorted_array.flatten
 end
+def reverse_array(array)
+  array.reverse
+end
