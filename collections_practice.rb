@@ -35,7 +35,7 @@ def find_a(array)
   end
 end
 def sum_array(array)
-  array.collect do |num|
+  array.each do |num|
     array[0] += num unless array[0] == num
   end
 end
