@@ -29,3 +29,8 @@ def kesha_maker(array)
     word[2] = "$"
   end
 end
+def find_a(array)
+  array.select do |word|
+    word.split("").include?("a")
+  end
+end
