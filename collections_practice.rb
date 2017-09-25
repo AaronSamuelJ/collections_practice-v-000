@@ -34,3 +34,9 @@ def find_a(array)
     word[0] == "a"
   end
 end
+def sum_array(array)
+  sum = 0
+  array.each do |num|
+    sum << array[0] + num unless array[0] == num
+  end
+end
